@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/custom/style.css" />
+    <title>BootStrap</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="mb-5">
+      <nav
+        class="bg-secondary navbar navbar-expand-lg fixed-top border-bottom border-primary"
+        data-bs-theme="dark"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">Website</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Website</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="#"
+                    aria-current="page"
+                    href="#"
+                    >Explore</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="#"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Create
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="#"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Share
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Header ends here-->
+
+    <main class="">
+      <!-- sing up section -->
+      <section class="sing-up text-white">
+        <div class="container pb-5">
+          <!-- row -->
+          <div class="row justify-content-between align-items-center pb-5">
+            <!--column 1-->
+            <div
+              class="col-12 col-xl-8 d-flex mb-4 flex-column justify-content-center"
+            >
+              <h6 class="display-5 mb-5 mt-4">
+                This is a website with bootstrap.
+              </h6>
+              <div class="d-flex jsutify-content-end">
+                <div class="checkbox bg-light rounded me-5">
+                  <i class="fs-1 text-primary bi bi-check"></i>
+                </div>
+                <p class="form-check-label" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium mollitia vitae ipsam ducimus quidem est amet quas,
+                  quaerat facilis quibusdam ut ad nesciunt
+                </p>
+              </div>
+              <div class="d-flex jsutify-content-between my-2">
+                <div class="checkbox bg-light rounded me-5">
+                  <i class="fs-1 text-primary bi bi-check"></i>
+                </div>
+                <p class="form-check-label" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium mollitia vitae ipsam ducimus quidem est amet quas,
+                  quaerat facilis quibusdam ut ad nesciunt
+                </p>
+              </div>
+              <div class="d-flex jsutify-content-between">
+                <div class="checkbox bg-light rounded me-5">
+                  <i class="fs-1 text-primary bi bi-check"></i>
+                </div>
+                <p class="form-check-label" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium mollitia vitae ipsam ducimus quidem est amet quas,
+                  quaerat facilis quibusdam ut ad nesciunt
+                </p>
+              </div>
+            </div>
+            <!--column 2-->
+            <div
+              class="col-12 col-xl-3 mt-5 mt-sm-5 d-flex flex-column justify-content-center"
+            >
+              <div class="bg-primary w-100 rounded p-3 text-center">
+                <h3>Sing Up Today</h3>
+                <p>Please fill out this form to register</p>
+                <form>
+                  <input
+                    type="name"
+                    class="form-control my-3"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="USERNAME"
+                  />
+                  <input
+                    type="email"
+                    class="form-control my-3"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="EMAIL"
+                  />
+                  <input
+                    type="password"
+                    class="form-control my-3"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="PASSWORD"
+                  />
+                  <input
+                    type="email"
+                    class="form-control my-3"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="CONFIRM PASSWORD"
+                  />
+
+                  <button
+                    type="submit"
+                    class="btn btn-outline-dark text-white border-white py-2 w-100"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- sing up section ends here -->
+
+      <!-- slider section -->
+      <section class="mt-5">
+        <div class="container">
+          <!-- row -->
+          <div class="row justify-content-between align-items-start">
+            <!--column 1 slider-->
+            <div class="col-12 col-xl-9 mb-3">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active h-75">
+                    <img
+                      src="./assets/images/CatSlider1.jpg"
+                      class="d-block w-100"
+                      alt="cat"
+                    />
+                  </div>
+                  <div class="carousel-item h-75">
+                    <img
+                      src="./assets/images/CatSlider2.jpg"
+                      class="d-block w-100"
+                      alt="cat"
+                    />
+                  </div>
+                  <div class="carousel-item h-75">
+                    <img
+                      src="./assets/images/CatSlider3.jpg"
+                      class="d-block w-100"
+                      alt="cat"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!--column 2 paragraph-->
+            <div class="col-12 col-xl-3">
+              <h3 class="fs-2">This is a slider</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
+                maxime quis quibusdam vitae nostrum maiores libero, corporis
+                dicta, eveniet cum quo eos iusto deserunt repudiandae. Ducimus
+                culpa est perspiciatis fuga.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos natus esse commodi sint ut, doloremque reiciendis
+                magni consectetur dolor optio doloribus aliquam perferendis
+                iusto cum deleniti laudantium incidunt non ipsa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- slider section ends here -->
+
+      <!-- explore section -->
+      <section class="bg-dark text-white text-center mt-5">
+        <div class="container py-5">
+          <h2 class="display-5 mb-4">Explore</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+            eaque, hic quasi optio, consequuntur temporibus culpa tenetur omnis
+            beatae ratione ab numquam quidem corporis repudiandae, aspernatur
+            delectus maiores deleniti fuga?
+          </p>
+
+          <button class="btn btn-outline-light">More information</button>
+        </div>
+      </section>
+      <!-- explore section ends here -->
+
+      <!-- learn and connect section -->
+      <section class="mt-4">
+        <div class="container">
+          <!-- row -->
+          <div class="row justify-content-center align-items-center">
+            <!-- column 1 picture -->
+            <div class="col-12 col-xl-6 mb-3">
+              <img
+                src="./assets/images/CatSlider3.jpg"
+                class="rounded-circle"
+                alt=""
+              />
+            </div>
+            <!-- column 2 paragraph -->
+            <div class="col-12 col-xl-6 mb-3">
+              <h3 class="fs-2">Explore Connect & Learn</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+                assumenda laborum odio animi nulla, ipsa eveniet doloribus magni
+                distinctio consequatur ipsum ipsam accusantium voluptate
+                expedita eius qui corporis exercitationem possimus?
+              </p>
+              <div class="d-flex jsutify-content-end my-5">
+                <div class="checkbox bg-dark rounded me-5">
+                  <i class="fs-1 text-light bi bi-check"></i>
+                </div>
+                <p class="form-check-label" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium mollitia vitae ipsam ducimus quidem est amet quas,
+                  quaerat facilis quibusdam ut ad nesciunt
+                </p>
+              </div>
+              <div class="d-flex jsutify-content-end">
+                <div class="checkbox bg-dark rounded me-5">
+                  <i class="fs-1 text-light bi bi-check"></i>
+                </div>
+                <p class="form-check-label" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium mollitia vitae ipsam ducimus quidem est amet quas,
+                  quaerat facilis quibusdam ut ad nesciunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- learn and connect section ends here-->
+      <!-- create section -->
+      <section class="bg-primary text-white text-center mt-5">
+        <div class="container py-5">
+          <h2 class="display-5 mb-4">Create</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+            eaque, hic quasi optio, consequuntur temporibus culpa tenetur omnis
+            beatae ratione ab numquam quidem corporis repudiandae, aspernatur
+            delectus maiores deleniti fuga?
+          </p>
+
+          <button class="btn btn-outline-light">More information</button>
+        </div>
+      </section>
+      <!-- create section ends here -->
+
+      <!-- passion section -->
+      <section class="pt-5 bg-secondary text-white">
+        <div class="container">
+          <!-- row -->
+          <div
+            class="row flex-row-reverse justify-content-center align-items-center"
+          >
+            <!-- column 1 picture -->
+            <div class="col-12 col-xl-6 mb-3">
+              <img
+                src="./assets/images/CatSlider2.jpg"
+                class="rounded-circle"
+                alt=""
+              />
+            </div>
+            <!-- column 2 paragraph -->
+            <div class="col-12 col-xl-6 mb-3">
+              <h3 class="fs-2">Create your passion</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+                assumenda laborum odio animi nulla, ipsa eveniet doloribus magni
+                distinctio consequatur ipsum ipsam accusantium voluptate
+                expedita eius qui corporis exercitationem possimus?
+              </p>
+              <div class="d-flex jsutify-content-end my-5">
+                <div class="checkbox bg-dark rounded me-5">
+                  <i class="fs-1 text-light bi bi-check"></i>
+                </div>
+                <p class="form-check-label" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium mollitia vitae ipsam ducimus quidem est amet quas,
+                  quaerat facilis quibusdam ut ad nesciunt
+                </p>
+              </div>
+              <div class="d-flex jsutify-content-end">
+                <div class="checkbox bg-dark rounded me-5">
+                  <i class="fs-1 text-light bi bi-check"></i>
+                </div>
+                <p class="form-check-label" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium mollitia vitae ipsam ducimus quidem est amet quas,
+                  quaerat facilis quibusdam ut ad nesciunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- passion section ends here -->
+
+      <!-- share section -->
+      <section class="bg-primary text-white text-center pt-5">
+        <div class="container py-5">
+          <h2 class="display-5 mb-4">Share</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+            eaque, hic quasi optio, consequuntur temporibus culpa tenetur omnis
+            beatae ratione ab numquam quidem corporis repudiandae, aspernatur
+            delectus maiores deleniti fuga?
+          </p>
+
+          <button class="btn btn-outline-light">More information</button>
+        </div>
+      </section>
+      <!-- share section ends here -->
+
+      <!--share what you created-->
+      <section class="mt-4">
+        <div class="container">
+          <!-- row -->
+          <div class="row justify-content-center align-items-center">
+            <!-- column 1 picture -->
+            <div class="col-12 col-xl-6 mb-3">
+              <img
+                src="./assets/images/CatSlider1.jpg"
+                class="rounded-circle"
+                alt=""
+              />
+            </div>
+            <!-- column 2 paragraph -->
+            <div class="col-12 col-xl-6 mb-3">
+              <h3 class="fs-2">Share what you create</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+                assumenda laborum odio animi nulla, ipsa eveniet doloribus magni
+                distinctio consequatur ipsum ipsam accusantium voluptate
+                expedita eius qui corporis exercitationem possimus?
+              </p>
+              <div class="d-flex jsutify-content-end my-5">
+                <div class="checkbox bg-dark rounded me-5">
+                  <i class="fs-1 text-light bi bi-check"></i>
+                </div>
+                <p class="form-check-label" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium mollitia vitae ipsam ducimus quidem est amet quas,
+                  quaerat facilis quibusdam ut ad nesciunt
+                </p>
+              </div>
+              <div class="d-flex jsutify-content-end">
+                <div class="checkbox bg-dark rounded me-5">
+                  <i class="fs-1 text-light bi bi-check"></i>
+                </div>
+                <p class="form-check-label" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium mollitia vitae ipsam ducimus quidem est amet quas,
+                  quaerat facilis quibusdam ut ad nesciunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--share what you created ends here-->
+
+      <footer class="bg-dark">
+        <div class="text-center w-50 m-auto p-5 text-white">
+          <h3>Website</h3>
+          <p>copy right &copy; 2023</p>
+          <button class="btn btn-primary text-white">Contact Us</button>
+        </div>
+      </footer>
+    </main>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
